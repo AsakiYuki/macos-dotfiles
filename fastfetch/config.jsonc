@@ -1,0 +1,170 @@
+{
+  "display": {
+    "bar": {
+      "border": {
+        "left": "[",
+        "right": "]"
+      },
+      "char": {
+        "elapsed": "█"
+      },
+      "charTotal": " ",
+      "color": {
+        "border": "green",
+        "elapsed": "green",
+        "total": "black"
+      },
+      "width": 10
+    },
+    "brightColor": true,
+    "color": {
+      "output": "#cdd6f4",
+      "separator": "black",
+      "title": "#cdd6f4"
+    },
+    "percent": {
+      "color": {
+        "green": "green",
+        "red": "red",
+        "yellow": "yellow"
+      },
+      "type": 3
+    },
+    "separator": "  "
+  },
+  "logo": {
+    "color": {
+      "1": "#89b4fa",
+      "2": "#89b4fa",
+      "3": "#89b4fa",
+      "4": "#89b4fa",
+      "5": "#89b4fa",
+      "6": "#89b4fa"
+    },
+    "padding": {
+      "top": 1
+    }
+  },
+  "modules": [
+    {
+      "format": " {user-name}@{host-name}",
+      "outputColor": "bright_yellow",
+      "type": "title"
+    },
+    {
+      "length": 24,
+      "outputColor": "white",
+      "string": "─",
+      "type": "separator"
+    },
+    {
+      "key": "╭─",
+      "keyColor": "green",
+      "type": "os"
+    },
+    {
+      "key": "├─󰌽",
+      "keyColor": "green",
+      "type": "kernel"
+    },
+    {
+      "key": "├─",
+      "keyColor": "green",
+      "type": "shell"
+    },
+    {
+      "key": "├─󰆧",
+      "keyColor": "green",
+      "type": "packages"
+    },
+    {
+      "key": "╰─󱑁",
+      "keyColor": "green",
+      "type": "uptime"
+    },
+    "break",
+    {
+      "key": "╭─󰧨",
+      "keyColor": "blue",
+      "type": "host"
+    },
+    {
+      "key": "├─",
+      "keyColor": "blue",
+      "type": "cpu"
+    },
+    {
+      "key": "├─",
+      "keyColor": "blue",
+      "type": "gpu"
+    },
+    {
+      "format": "{name}",
+      "key": "├─",
+      "keyColor": "blue",
+      "type": "sound"
+    },
+    {
+      "format": "{percentage-bar} {used} / {total}",
+      "key": "├─",
+      "keyColor": "blue",
+      "type": "memory"
+    },
+    {
+      "format": "{percentage-bar} {used} / {total}",
+      "key": "├─",
+      "keyColor": "blue",
+      "type": "swap"
+    },
+    {
+      "format": "{size-percentage-bar} {name} ({mountpoint}) {size-used} / {size-total} - {filesystem}",
+      "key": "├─󰋊",
+      "keyColor": "blue",
+      "type": "disk"
+    },
+    {
+      "key": "╰─",
+      "keyColor": "blue",
+      "type": "localip"
+    },
+    "break",
+    {
+      "key": "╭─",
+      "keyColor": "yellow",
+      "type": "terminal"
+    },
+    {
+      "key": "├─󰨇",
+      "keyColor": "yellow",
+      "type": "wm"
+    },
+    {
+      "key": "├─󰨇",
+      "keyColor": "yellow",
+      "type": "de"
+    },
+    {
+      "key": "├─",
+      "keyColor": "yellow",
+      "type": "bios"
+    },
+    {
+      "key": "├─󱓓",
+      "keyColor": "yellow",
+      "type": "theme"
+    },
+    {
+      "key": "├─󱓓",
+      "keyColor": "yellow",
+      "type": "icons"
+    },
+    {
+      "key": "╰─󱓓",
+      "keyColor": "yellow",
+      "type": "cursor"
+    },
+    "break",
+    "colors"
+  ]
+}
+

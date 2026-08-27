@@ -1,0 +1,62 @@
+add_newline = true
+format = "$os $shell $cmake$java$nodejs$git_branch$character\n$cmd_duration$sudo$directory > "
+scan_timeout = 10
+
+[character]
+disabled = false
+error_symbol = "[](red)"
+success_symbol = "[](green)"
+
+[cmake]
+format = "[$symbol $version](bold blue) "
+symbol = ""
+
+[cmd_duration]
+format = "[\\[$duration\\]]($style) "
+min_time = 1
+show_milliseconds = true
+style = "#C0C0C0"
+
+[directory]
+format = "[$read_only]($read_only_style)[$path]($style)"
+read_only = "󰌾 "
+style = "#2e8be8"
+truncation_length = 2
+
+[git_branch]
+disabled = false
+format = "[$symbol $branch]($style) "
+style = "red"
+symbol = ""
+
+[java]
+format = "[$symbol $version]($style) "
+symbol = ""
+
+[nodejs]
+format = "[$symbol $version](bold green) "
+symbol = "󰎙"
+
+[os]
+disabled = false
+format = "[$symbol]($style)"
+
+[os.symbols]
+Arch = "[󰣇](bold blue)"
+NixOS = "[](bold blue)"
+Windows = "[](bold blue)"
+
+[shell]
+bash_indicator = "bash"
+disabled = false
+fish_indicator = "fish"
+format = "[$indicator]($style)"
+powershell_indicator = "pwsh"
+style = "white"
+zsh_indicator = "zsh"
+
+[sudo]
+disabled = false
+format = "[$symbol]($style) "
+symbol = ""
+
